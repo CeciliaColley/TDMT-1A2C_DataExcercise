@@ -8,6 +8,7 @@ namespace Characters
 {
     public class Character : MonoBehaviour, ISteerable, ITarget
     {
+        [SerializeField] private string loseEventName = "LoseSequence";
         [SerializeField] private float speed = 2.5f;
         [SerializeField] private float runningSpeed = 5;
         [SerializeField] private DS_Character targetSource;
@@ -50,7 +51,7 @@ namespace Characters
         {
             //TODO: Raise event through event system telling the game to show the defeat sequence.
             gameObject.SetActive(false);
-            EventManager.TriggerEvent("LoseSequence");
+            EventManager.TriggerEvent(loseEventName);
 
             Debug.Log($"{name}: received an attack!");
         }

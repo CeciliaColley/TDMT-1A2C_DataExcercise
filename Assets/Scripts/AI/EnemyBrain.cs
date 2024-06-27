@@ -25,7 +25,7 @@ namespace AI
         private void Update()
         {
             //TODO: Add logic to get the target from a source/reference system
-            //We did this TODO win Character and it ended up being more SOLID.
+            // To ensure SOLID code standards, this TODO was completed from the character script.
 
             if (targetSource.Reference == null)
             {

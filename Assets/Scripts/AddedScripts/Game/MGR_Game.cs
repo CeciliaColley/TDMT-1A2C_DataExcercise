@@ -6,6 +6,9 @@ using DataSource;
 
 namespace Game
 {
+    /// <summary>
+    /// Manages game-specific events and states.
+    /// </summary>
     public class MGR_Game : MonoBehaviour
     {
         [SerializeField] private string playId = "Play";
@@ -29,10 +32,10 @@ namespace Game
         }
 
         /// <summary>
-        /// Add a summary
+        /// Handles Play or Exit events.
         /// </summary>
-        /// <param name="id"></param>
-        public void HandleSpecialEvents(string id)
+        /// <param name="id">The event identifier. Should be "Play" or "Exit".</param>
+        public void HandlePlayOrExit(string id)
         {
             if (id == playId)
             {
