@@ -1,0 +1,18 @@
+{
+    "name": "Varela.DataExcercise.Characters.Runtime",
+    "rootNamespace": "",
+    "references": [
+        "GUID:6a581ca88f27cc8428c332a4ede4eeaf",
+        "GUID:ef557fa5ab65c8c4fb2b94055906cb1d",
+        "GUID:b96a396b5a722504aa15e3fa62b04430"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
